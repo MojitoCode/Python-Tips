@@ -1,0 +1,18 @@
+Syntax: Original_Value1, Original_Value2 = New_Value1, New_Value2
+
+
+^^^
+Quick technique to condense and shift/swap values of multiple variables
+
+(ex. instead of writing something like: 
+
+A = 1
+B = 2
+Temp = A
+A = B
+B = Temp
+
+You can condense it to a single line using technique called 'Tuple Unpacking':
+
+A, B = B, A
+)
